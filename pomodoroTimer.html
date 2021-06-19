@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="pomodoroLogic.js"></script>
+        <link rel="stylesheet" href="stylin.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="coffee">
+            <div class="timer-container">
+                <span id="time"></span>
+                <button id="start-pause-btn" onclick="clickStartPomodoroTimer();"><span id="start-pause">START</span></button>
+                <button id ="reset-btn" onclick="resetTimer();">RESET</button> 
+            </div>
+            <audio id="pomodoro-beep" src="pomodoro-beep.mp3"></audio>
+        </div>
+    </body>
+</html>
